@@ -1,0 +1,23 @@
+{
+  "name": "gcp-service-exception-posture",
+  "version": "1.0.0",
+  "description": "GCP Service Exception Posture turns GCP signals into board-ready risk, savings, and investment decisions.",
+  "type": "module",
+  "license": "MIT",
+  "author": "mizcausevic-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizcausevic-dev/gcp-service-exception-posture.git"
+  },
+  "keywords": ["gcp","cloud-governance","kinetic-gain","executive-intelligence","risk-scoring"],
+  "bin": {
+    "gcp-service-exception-posture": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
